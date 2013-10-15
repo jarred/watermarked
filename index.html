@@ -10,9 +10,21 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width">
         <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            font: 400 13px/18px 'Helvetica Neue', Sans-Serif;
+        }
+        body{
+            margin: 20px;
+        }
+        p{
+            margin-bottom: 20px;
+        }
         .image{
             position: relative;
-            max-width: 100%;
+            max-width: 1000px;
+            margin-bottom: 20px;
         }
         .image img{
             display: block;
@@ -29,9 +41,16 @@
         </style>
     </head>
     <body>
+        <p>Try saving or opening these images in a new tab.</p>
+
         <div class="image">
             <img src="images/1.jpg" />
             <img class="top" src="images/1-top.png" />
+        </div>
+
+        <div class="image">
+            <img src="images/2.jpg" />
+            <img class="top" src="images/2-top.png" />
         </div>
         
     </body>
